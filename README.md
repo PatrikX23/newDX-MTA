@@ -73,3 +73,25 @@ color2 - border color in tocolor(r, g, b, alpha)
 colorLoading - loadingbar color in tocolor(r, g, b, alpha)
 
 second - second in ms 5000ms is 5sec
+
+# newDXshadowedText
+
+Usage: newDXshadowedText(text, x, y, w, h, color, fontsize, font, aligX, alignY)
+
+x - An float representing the absolute origin X position of the rectangle, represented by pixels on the screen.
+
+y - An float representing the absolute origin Y position of the rectangle, represented by pixels on the screen.
+
+w - An float representing the width of the rectangle, drawn in a right direction from the origin.
+
+h - An float representing the height of the rectangle, drawn in a downwards direction from the origin.
+
+color - text color in toclor(r, g, b, alpha)
+
+fontsize - text scale
+
+font - dxCreateFont or default MTA font
+
+aligX - horizontal alignment of the text within the bounding box. Can be "left", "center" or "right".
+
+alignY - vertical alignment of the text within the bounding box. Can be "top", "center" or "bottom".
