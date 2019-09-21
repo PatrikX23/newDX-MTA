@@ -4,7 +4,7 @@ Special DxDraw Functions: rounedRectangle, roundedBorder, shadowedText, linedRec
 
 # newDXLinedRectangle
 
-Usage: newDXLinedRectangle(x, y, w, h, color, color2, size)
+Usage: newDXLinedRectangle(x, y, w, h, color, color2, size) or exports.newDX:newDXLinedRectangle(x, y, w, h, color, color2, size)
 
 x - An float representing the absolute origin X position of the rectangle, represented by pixels on the screen.
 
@@ -22,7 +22,7 @@ size - border size in Number
 
 # newDXroundedRectangle
 
-Usage: newDXroundedRectangle(x, y, w, h, bgColor, postGUI)
+Usage: newDXroundedRectangle(x, y, w, h, bgColor, postGUI) or exports.newDX:newDXroundedRectangle(x, y, w, h, bgColor, postGUI)
 
 x - An float representing the absolute origin X position of the rectangle, represented by pixels on the screen.
 
@@ -38,7 +38,7 @@ postGUI - A bool representing whether the line should be drawn on top of or behi
 
 # newDXroundedBorder
 
-Usage: newDXroundedBorder(x, y, w, h, borderColor, postGUI)
+Usage: newDXroundedBorder(x, y, w, h, borderColor, postGUI) or exports.newDX:newDXroundedBorder(x, y, w, h, borderColor, postGUI)
 
 x - An float representing the absolute origin X position of the rectangle, represented by pixels on the screen.
 
@@ -54,7 +54,7 @@ postGUI - A bool representing whether the line should be drawn on top of or behi
 
 # newDXLoading
 
-Usage: newDXLoading(x, y, width, height, borderSize, color, color2, colorLoading, second)
+Usage: newDXLoading(x, y, width, height, borderSize, color, color2, colorLoading, second) or exports.newDX:newDXLoading(x, y, width, height, borderSize, color, color2, colorLoading, second)
 
 x - An float representing the absolute origin X position of the rectangle, represented by pixels on the screen.
 
@@ -76,7 +76,7 @@ second - second in ms 5000ms is 5sec
 
 # newDXshadowedText
 
-Usage: newDXshadowedText(text, x, y, w, h, color, fontsize, font, aligX, alignY)
+Usage: newDXshadowedText(text, x, y, w, h, color, fontsize, font, aligX, alignY) or exports.newDX:newDXshadowedText(text, x, y, w, h, color, fontsize, font, aligX, alignY)
 
 x - An float representing the absolute origin X position of the rectangle, represented by pixels on the screen.
 
