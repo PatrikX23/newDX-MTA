@@ -36,4 +36,10 @@
     <script src="functions/drawRoundedRectangle.lua" type="client" />
     <script src="functions/drawShadowedText.lua" type="client" />
 
+    <!-- Exports -->
+    <export function="newDXroundedRectangle" type="client" />
+    <export function="newDXroundedBorder" type="client" />
+    <export function="newDXLinedRectangle" type="client" />
+    <export function="newDXLoading" type="client" />
+    <export function="newDXshadowedText" type="client" />
 </meta>
