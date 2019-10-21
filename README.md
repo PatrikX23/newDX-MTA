@@ -1,6 +1,6 @@
 # newDX-MTA
 
-Special DxDraw Functions: rounedRectangle, roundedBorder, shadowedText, linedRectangle, loadingBar
+Special DxDraw Functions: roundedRectangle, roundedBorder, shadowedText, linedRectangle, loadingBar
 
 # newDXLinedRectangle
 
