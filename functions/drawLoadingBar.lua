@@ -1,3 +1,8 @@
+function onStart()
+    outputDebugString("newDX - drawLoadingBar Loaded", 3)
+end
+addEventHandler("onClientResourceStart", getResourceRootElement(), onStart)
+
 local start = getTickCount()
 function newDXLoading(x, y, width, height, borderSize, color, color2, colorLoading, second)
     local now = getTickCount()
